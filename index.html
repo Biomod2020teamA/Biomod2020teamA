@@ -41,6 +41,18 @@ $(function () {
 		ga('create', 'UA-48544050-1', 'auto');
 		ga('send', 'pageview');
 		</script>
+
+        <script>
+        $(function() {
+	setTimeout(function(){
+		$('.start p').fadeIn(1600);
+	},500); //0.5秒後にロゴをフェードイン!
+	setTimeout(function(){
+		$('.start').fadeOut(500);
+	},2500); //2.5秒後にロゴ含め真っ白背景をフェードアウト！
+});
+        </script>
+
 		<div class="overlay" id="js__overlay"></div>
 		<nav class="side-menu" id="js__sideMenu">
             <ul class="side-menu__ul">
@@ -109,6 +121,10 @@ $(function () {
 			</footer>
 
 		</div><!-- /.wrapper -->
+
+        <div class="start">
+    <p><img src="image/2020-09-19.png" alt=""></p>
+</div>
 
 	</body>
 </html>

@@ -433,5 +433,5 @@ strong {
 	transform: translate(-50%, -50%);
 	display: none;
 	z-index: 9999;
-	width: 500px;
+	width: 100%;
 }

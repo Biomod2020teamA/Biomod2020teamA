@@ -180,10 +180,17 @@ strong {
     text-align: center;
     font-family: fantasy;
     text-shadow: 5px 5px 5px #808080;
-    font-size: 40px;
+    font-size: 80px;
+    background-size: 100%;
+    background-image: no-repeat;
+    height: 250px
 }
 
-.header h1,
+.header h1,.c{
+	margin-bottom: 30px;
+	font-size: 50px;
+}
+
 .contents h1 {
 	margin-bottom: 30px;
 	font-size: 20px;
@@ -200,7 +207,7 @@ strong {
 .footer {
 	padding: 150px 0;
 	background: black;
-    color: aliceblue
+    color: aliceblue;
 }
 
 /* --------------------------------------------------- btn */
@@ -417,7 +424,7 @@ strong {
 	background: #ccc;
 }
 
-.start {
+.start0, .start1, .start2, .start3, .start4,{
 	background: #FFF;
 	position: fixed;
 	top: 0;

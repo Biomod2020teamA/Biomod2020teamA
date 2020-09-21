@@ -177,27 +177,63 @@ strong {
 .header {
 	padding: 10px 0;
 	color: white;
-    text-align: center;
     font-family: fantasy;
     text-shadow: 5px 5px 5px #808080;
-    font-size: 80px;
+    font-size: 50px;
     background-size: 100% auto;
     background-repeat: no-repeat;
     height: 250px auto;
 }
 
-.header h1,.c{
+.header h{
 	margin-bottom: 30px;
 	font-size: 50px;
+    text-align: center;
+}
+
+.header h1,.c{
+	margin-bottom: 3px;
+	font-size: 20px;
+    text-align: left;
+    padding-left: 80px;
+}
+
+.headertop {
+	padding: 10px 0;
+	color: white;
+    font-family: fantasy;
+    text-shadow: 5px 5px 5px #808080;
+    font-size: 50px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 250px auto;
+}
+
+.headertop h{
+	margin-bottom: 30px;
+	font-size: 80px;
+    text-align: center;
+}
+
+.headertop h1,.c{
+	margin-bottom: 3px;
+	font-size: 50px;
+    text-align: left;
+    padding-left: 80px;
 }
 
 .contents h1 {
+	margin-bottom: 30px;
+	font-size: px;
+}
+
+.contents p {
 	margin-bottom: 30px;
 	font-size: 20px;
 }
 
 .contents {
-	padding: 150px 0 250px;
+	padding: 150px 150px 250px;
 }
 
 .contents p {

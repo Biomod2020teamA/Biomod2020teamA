@@ -224,14 +224,14 @@ strong {
 	margin: 0 auto;
 	line-height: 40px;
 	font-size: 13px;
-	color: #1a1e24;
+	color: whitesmoke;
 	-webkit-transition: all .3s ease;
 	transition: all .3s ease;
 	border: 1px solid #1a1e24;
 }
 
 .btn__box a:hover {
-	color: #fff !important;
+	color: yellow !important;
 	background: #1a1e24;
 }
 
@@ -424,7 +424,7 @@ strong {
 	background: #ccc;
 }
 
-.start0, .start1, .start2, .start3, .start4,{
+.start0 .start1 .start2 .start3 .start4{
 	background: #FFF;
 	position: fixed;
 	top: 0;
@@ -433,12 +433,12 @@ strong {
 	width: 100%;
 	z-index: 9000;
 }
-.start p {
+.start0 p .start1 p .start2 p .start3 p .start4 p {
 	position: fixed;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
 	display: none;
 	z-index: 9999;
-	width: 100%;
+	width: 280px;
 }

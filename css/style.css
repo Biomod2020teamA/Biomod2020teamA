@@ -227,12 +227,12 @@ strong {
 	color: whitesmoke;
 	-webkit-transition: all .3s ease;
 	transition: all .3s ease;
-	border: 1px solid #1a1e24;
+	border: 1px solid white;
 }
 
 .btn__box a:hover {
-	color: yellow !important;
-	background: #1a1e24;
+	color: black !important;
+	background: white;
 }
 
 .btn__box--svg {
@@ -249,7 +249,7 @@ strong {
 
 .btn__box--svg rect {
 	fill: transparent;
-	stroke: #1a1e24;
+	stroke: white;
 	stroke-width: 1px;
 	stroke-dasharray: 242px;
 	stroke-dashoffset: 256px;

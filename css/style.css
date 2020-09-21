@@ -181,9 +181,9 @@ strong {
     font-family: fantasy;
     text-shadow: 5px 5px 5px #808080;
     font-size: 80px;
-    background-size: 100%;
+    background-size: 100% auto;
     background-image: no-repeat;
-    height: 250px
+    height: 250px auto;
 }
 
 .header h1,.c{

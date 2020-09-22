@@ -199,6 +199,7 @@ strong {
     height: 300px ;
     background-size: cover;
     width: 100%;
+    max-width: 100%;
 }
 
 .headertop h{

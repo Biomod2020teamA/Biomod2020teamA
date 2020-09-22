@@ -524,13 +524,27 @@ strong {
 .contents {
 	padding: 150px 30px;
 }
+.headertop {
+	padding: 10px 0;
+	color: white;
+    font-family: fantasy;
+    text-shadow: 5px 5px 5px #808080;
+    font-size: 50px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 300px ;
+    background-size: cover;
+    width: 100% auto;
+    max-width: 100%;
+}
+
 .headertop h1,.c{
 	margin-bottom: 3px;
 	font-size: 50px;
     text-align: left;
     padding-left: 20px;
 }
-    .header {
+.header {
 	padding: 10px 0;
 	color: white;
     font-family: fantasy;

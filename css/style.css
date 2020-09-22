@@ -174,16 +174,6 @@ strong {
 	color: rgba(255,255,255,.8);
 }
 
-.header {
-	padding: 10px 0;
-	color: white;
-    font-family: fantasy;
-    text-shadow: 5px 5px 5px #808080;
-    font-size: 50px;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    height: 250px auto;
-}
 
 .header h{
 	margin-bottom: 30px;
@@ -204,9 +194,11 @@ strong {
     font-family: fantasy;
     text-shadow: 5px 5px 5px #808080;
     font-size: 50px;
-    background-size: 100% auto;
+    background-size: auto;
     background-repeat: no-repeat;
-    height: 250px auto;
+    height: 300px ;
+    background-size: cover;
+    width: 100%;
 }
 
 .headertop h{
@@ -536,6 +528,16 @@ strong {
     text-align: left;
     padding-left: 20px;
 }
+    .header {
+	padding: 10px 0;
+	color: white;
+    font-family: fantasy;
+    text-shadow: 5px 5px 5px #808080;
+    font-size: 50px;
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    height: 250px ;
+}
 }
 
 @media screen and (min-width: 768px){
@@ -565,5 +567,15 @@ strong {
     font-size: 45px;
     border-bottom: solid 5px orange;
 	padding: 0px ;
+}
+    .header {
+	padding: 10px 0;
+	color: white;
+    font-family: fantasy;
+    text-shadow: 5px 5px 5px #808080;
+    font-size: 50px;
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    height: 120px ;
 }
 }

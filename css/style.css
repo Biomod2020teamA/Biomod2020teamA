@@ -230,6 +230,7 @@ strong {
 .contents p {
 	margin-bottom: 30px;
 	font-size: 20px;
+    text-align: center
 }
 
 .contents {
@@ -238,6 +239,16 @@ strong {
 
 .contents p {
 	margin-bottom: 50px;
+    font-family: serif;
+    
+}
+
+.contents h2 {
+	margin-bottom: 75px;
+    text-align: left;
+    font-size: 45px;
+    border-bottom: solid 5px orange;
+	padding: 0px ;
 }
 
 .footer {
@@ -524,5 +535,35 @@ strong {
 	font-size: 50px;
     text-align: left;
     padding-left: 20px;
+}
+}
+
+@media screen and (min-width: 768px){
+    .contents h1 {
+	margin-bottom: 30px;
+	font-size: px;
+}
+
+.contents p {
+	margin-bottom: 30px;
+	font-size: 20px;
+    text-align: center
+}
+
+.contents {	padding: 120px 250px ;
+}
+
+.contents p {
+	margin-bottom: 50px;
+    font-family: serif;
+    padding: 30px;
+}
+
+.contents h2 {
+	margin-bottom: 75px;
+    text-align: left;
+    font-size: 45px;
+    border-bottom: solid 5px orange;
+	padding: 0px ;
 }
 }

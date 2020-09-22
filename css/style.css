@@ -530,7 +530,7 @@ strong {
     font-family: fantasy;
     text-shadow: 5px 5px 5px #808080;
     font-size: 50px;
-    background-size: auto;
+    background-size: 100%;
     background-repeat: no-repeat;
     height: 300px ;
     width: 100% auto;

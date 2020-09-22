@@ -538,7 +538,7 @@ strong {
     font-size: 50px;
     background-size: 100% ;
     background-repeat: no-repeat;
-    height: 300px auto;
+    height: 300px ;
     max-width: 100%;
 }
 }

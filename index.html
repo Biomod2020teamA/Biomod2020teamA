@@ -33,6 +33,23 @@ $(function () {
 		</script>
 	</head>
 	<body>
+    
+                <script>
+    $(function(){
+	$(window).scroll(function (){
+		$('.fadein').each(function(){
+			var elemPos = $(this).offset().top;
+			var scroll = $(window).scrollTop();
+			var windowHeight = $(window).height();
+			if (scroll > elemPos - windowHeight + 200){
+				$(this).addClass('scrollin');
+			}
+		});
+	});
+});
+        </script>
+
+
 		<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -51,38 +68,6 @@ $(function () {
 	setTimeout(function(){
 		$('.start0').fadeOut(0);
 	},500);
-});
-        $(function() {
-	setTimeout(function(){
-		$('.start1 p').fadeIn(0);
-	},1000);
-	setTimeout(function(){
-		$('.start1').fadeOut(0);
-	},1500);
-});
-        $(function() {
-	setTimeout(function(){
-		$('.start2 p').fadeIn(0);
-	},1500);
-	setTimeout(function(){
-		$('.start2').fadeOut(0);
-	},2000);
-});
-        $(function() {
-	setTimeout(function(){
-		$('.start3 p').fadeIn(0);
-	},2000);
-	setTimeout(function(){
-		$('.start3').fadeOut(0);
-	},2500);
-});
-        $(function() {
-	setTimeout(function(){
-		$('.start4 p').fadeIn(0);
-	},2500);
-	setTimeout(function(){
-		$('.start4').fadeOut(1600);
-	},3000);
 });
         </script>
 		<div class="overlay" id="js__overlay"></div>
@@ -138,18 +123,6 @@ $(function () {
                <div class="start0">
     <p><img src="image/landscape-tree-nature-forest-outdoor-mountain-1227931-pxhere.com.jpg" alt=""></p>
 </div>
-                <div class="start1">
-    <p><img src="image/honey3.png" alt=""></p>
-</div>
-                <div class="start2">
-    <p><img src="image/honey2.png" alt=""></p>
-</div>
-                <div class="start3">
-    <p><img src="image/honey1.png" alt=""></p>
-</div>
-                <div class="start4">
-    <p><img src="image/honey0.png" alt=""></p>
-</div>
 			<header class="headertop">
                 <h1 id=head>BIOMOD2020 teamA </h1>
                 <h>HONEY TRAP LIPOSPOME</h>
@@ -158,12 +131,23 @@ $(function () {
 
 			<main class="contents">
 				<section class="contents__inner">
-					<h1 id=abstract>abstract</h1>
-					<p>Abstract
-Molecular actuator has attracted much interest in nanorobotics fields.
+	<h2>abstract</h2>
+                    <section class="fadein">
+		<p>Molecular actuator has attracted much interest in nanorobotics fields.
 Recently, researchers have succeeded in demonstrating “polymerization actuator” that can change its length dramatically by DNA hybridization chain reaction (HCR). When both ends of the actuator by HCR are anchored between the objects, because it extends keeping its crosslinking point, it can extend the distance between them. By applying this system for crosslinks between hydrogels, researchers achieved 100 times gel swelling.
 However, there is a problem that shrinking of the actuator is improbable because HCR is driven by enthalpy gap of polymerization of DNA hairpins, HCR material. Here, we propose a novel shrinking mechanism of the polymerized actuator, called “reversible HCR”.Our designed actuator can remove DNA while keeping its crosslinking point, carried out by the “irreversible process” with hairpin DNAs for its shrinking.
 Based on our system, we may develop a molecular actuator that can both extend and shrink.</p>
+</section>
+
+
+<section class="fadein scrollin">
+	<h2></h2>
+		<p></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/p-oyPA44jew?start=2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+					<h1 id=abstract>abstract</h1>
+					<p>SARS-CoV-2 has stroke a below to all over the world. A more accurate way ofthe test is needed to overcome this virus, so we suggest a molecular robot,HONEY as a new testing method. HONEY works as a decoy of this virus and candetect infectious viral RNA by making the virus infect itself. By this system, falsepositive,   one   of   the   disadvantages   of   testing   methods   used   currently.Furthermore, when the HONEY detects viral DNA inside the robot, HONEY emitslight. By the fluorescence system, we can determine whether SARS-CoV-2 exists
+in the sample or not visually. If this project is successful, this robot can be usedfor the COVID-19 test as a more accurate method.Also, this robot will contribute to research the actual intrusion route of this virusbecause that has not been completely explained yet. This robot is based on thehypothesis that SARS-CoV-2 causes membrane fusion with the cell membranedirectly and release the viral RNA in the cell.However, it is also thought that this virus uses endocytosis to enter the hostcell. If this thought is true, this robot will not work. But by knowing whether thisrobot works or not, we can get new findings of the intrusion route of this virus.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p-oyPA44jew?start=2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</section>
 			</main>

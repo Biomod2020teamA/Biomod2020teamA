@@ -532,7 +532,7 @@ strong {
     font-size: 50px;
     background-size: auto;
     background-repeat: no-repeat;
-    height: 300px ;;
+    height: 300px ;
     width: 100% auto;
     max-width: 100%;
 }
@@ -551,7 +551,7 @@ strong {
     font-size: 50px;
     background-size: 100% ;
     background-repeat: no-repeat;
-    height: 300px ;
+    height: 250px ;
     max-width: 100%;
 }
 }

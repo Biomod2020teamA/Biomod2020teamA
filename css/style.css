@@ -735,7 +735,20 @@ word-wrap: break-word;
 }
 
 @media screen and (max-width: 450px){
-.header {
-	background-image: url("image/細め。jpeg");
+.headertop {
+	padding: 10px 0;
+	color: white;
+    font-family: fantasy;
+    text-shadow: 5px 5px 5px #808080;
+    font-size: 50px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px ;
+    width: auto;
+    max-width: 100%;
+}
+.headertop .header {
+	background-image: url("image/細め.jpeg");
     background-position: center;
+    background-size: contain;
 }

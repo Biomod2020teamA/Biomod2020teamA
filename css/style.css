@@ -755,9 +755,9 @@ word-wrap: break-word;
     font-size: 50px;
     background-size: auto;
     background-repeat: no-repeat;
-    height: auto;
+    height: ;
     background-size: cover;
-    width: 100%;
+    width: ;
     max-width: 100%;
 }
 

@@ -544,7 +544,7 @@ strong {
     padding-left: 20px;
 }
 .header {
-	padding: 10px 0;
+	padding: 0px 0;
 	color: white;
     font-family: fantasy;
     text-shadow: 5px 5px 5px #808080;
@@ -599,7 +599,7 @@ strong {
 
 @media screen and (max-width: 450px){
     .headertop {
-	padding: 10px 0;
+	padding: 0px 0;
 	color: white;
     font-family: fantasy;
     text-shadow: 5px 5px 5px #808080;

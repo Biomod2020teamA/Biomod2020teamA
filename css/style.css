@@ -37,11 +37,8 @@ ol, ul {
 }
 
 img {
-	-ms-interpolation-mode: bicubic;
-	vertical-align: bottom;
 	max-width: 100%;
-	height: auto;
-	width /***/: auto; /* for ie8 */
+-ms-interpolation-mode: bicubic ;
 }
 
 a {
@@ -488,6 +485,7 @@ strong {
     margin: 3%;
     text-align: center;
     width: 100%;
+	vertical-align: bottom;
 }   
 .img100 >p{
     margin-top:0px;
@@ -508,11 +506,21 @@ strong {
     margin: 5% 15% 0% 15%;
     text-align: justify;
     width: 100%;
+	vertical-align: bottom;
 }
 .img70 >p{
     margin-top:0px;
     margin-bottom: 5px;
     font-size:18px;
+}
+
+.img50{
+    padding: 0px;
+}
+
+.img50 h{
+    display: inline-block;
+ vertical-align: top;
 }
 
 .youtube{
@@ -544,7 +552,7 @@ strong {
     padding-left: 20px;
 }
 .header {
-	padding: 0px 0;
+	padding: 10px 0;
 	color: white;
     font-family: fantasy;
     text-shadow: 5px 5px 5px #808080;
@@ -599,7 +607,7 @@ strong {
 
 @media screen and (max-width: 450px){
     .headertop {
-	padding: 0px 0;
+	padding: 10px 0;
 	color: white;
     font-family: fantasy;
     text-shadow: 5px 5px 5px #808080;

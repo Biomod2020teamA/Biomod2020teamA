@@ -731,6 +731,7 @@ word-wrap: break-word;
     background-repeat: no-repeat;
     height: 120px ;
     max-width: 100%;
+    width: auto;
 }
 }
 

@@ -34,6 +34,20 @@ $(function () {
 		</script>
 	</head>
 	<body>
+               <script>
+    $(function(){
+	$(window).scroll(function (){
+		$('.fadein').each(function(){
+			var elemPos = $(this).offset().top;
+			var scroll = $(window).scrollTop();
+			var windowHeight = $(window).height();
+			if (scroll > elemPos - windowHeight + 200){
+				$(this).addClass('scrollin');
+			}
+		});
+	});
+});
+        </script>
 		<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -117,11 +131,9 @@ $(function () {
 			<main class="contents">
 				<section class="contents__inner">
 					<h2>future</h2>
-					<p><span style="font-size:2em;">I</span>f this molecular robot, HONEY can be used for detecting the SARS-CoV-2 as expected, false positive is reduced and we can recognize infected people and not infected people more accurately and take care of infected people more effectively. If that happens, people will not have to pay attention to the COVID-19 more than now and the restriction of activities will be eased. And these advantages will lead to an early recovery of the economy as a result.
+				<section class="fadein"><p><span style="font-size:2em;">I</span>f this molecular robot, HONEY can be used for detecting the SARS-CoV-2 as expected, false positive is reduced and we can recognize infected people and not infected people more accurately and take care of infected people more effectively. If that happens, people will not have to pay attention to the COVID-19 more than now and the restriction of activities will be eased. And these advantages will lead to an early recovery of the economy as a result.
 Furthermore, this robot can detect other kinds of viruses if membrane proteins and arrangements in the liposome are appropriately tuned.
-</p>
-					<p class="btn__box">
-					</p>
+                    </p></section>
 				</section>
 			</main>
 

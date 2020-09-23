@@ -515,7 +515,7 @@ strong {
 }
 
 .img50{
-    padding: 0px;
+    padding: 40px;
 }
 
 .img50 h{
@@ -525,7 +525,66 @@ strong {
 
 .youtube{
     width: 100%;
-    height: 360px
+    height: 360px;
+}
+
+.bg-change {
+    display: inline-block;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+    cursor: pointer;
+}
+.bg-change.no1 {
+    right: 66%;
+}
+.bg-change.no2 {
+    left: 0;
+    right: 0;
+}
+.bg-change.no3 {
+    left: 66%;
+}
+.bg-change >a{
+    font-size: 15px;
+    font-family: cursive;
+}
+
+.bg-change2 {
+    display: inline-block;
+    top: 0;
+    bottom: 0;
+    width: 175px;
+    height: 60px;
+    line-height: 50px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+    cursor: pointer;
+}
+.bg-change2.no1 {
+    right: 25%;
+}
+.bg-change2.no2 {
+    right: 50%;
+}
+.bg-change2.no3 {
+    left: 50%;
+}
+.bg-change2.no4 {
+    left: 25%;
+}
+
+.bg-change2 >a{
+    font-size: 15px;
+    font-family: cursive;
 }
 
 @media screen and (max-width: 768px){
@@ -561,6 +620,54 @@ strong {
     background-repeat: no-repeat;
     height: 250px ;
     max-width: 100%;
+}
+.bg-change {
+    display: inline-block;
+    top: 0;
+    bottom: 0;
+    width: 175px;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+    cursor: pointer;
+}
+.bg-change.no1 {
+    right: 66%;
+}
+.bg-change.no2 {
+    left: 0;
+    right: 0;
+}
+.bg-change.no3 {
+    left: 66%;
+}
+.bg-change2 {
+    display: inline-block;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+    cursor: pointer;
+}
+.bg-change2.no1 {
+    right: 25%;
+}
+.bg-change2.no2 {
+    right: 50%;
+}
+.bg-change2.no3 {
+    left: 50%;
+}
+.bg-change2.no4 {
+    left: 25%;
 }
 }
 

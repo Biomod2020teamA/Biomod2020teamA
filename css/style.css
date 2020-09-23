@@ -610,6 +610,6 @@ strong {
     background-size: auto;
     width: auto;
     max-width: 100%;
-    background-size: contain
+    margin: auto;
 }
 }
